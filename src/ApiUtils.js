@@ -1,7 +1,7 @@
 import request from 'superagent'
 
 //URL for back end local host
-const URL = 'http://localhost:3000'
+const URL = 'https://floating-fortress-98302.herokuapp.com/'
 
 //Function for signing up the user
 export async function signUpUser(email, password) {
