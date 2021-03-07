@@ -7,6 +7,7 @@ export default class SignUpPage extends Component {
         email: '',
         password: ''
     }
+
     //handle email change
     handleEmailChange = (e) => {
         this.setState({
@@ -26,8 +27,8 @@ export default class SignUpPage extends Component {
         e.preventDefault()
 
         const user = await signUpUser(this.state.email, this.state.password)
-        this.props.handleUserChange(user)
-        this.props.history.push('/todos')
+        this.props.handleUserChange(user);
+        this.props.history.push('/todos');
     }
 
     render() {

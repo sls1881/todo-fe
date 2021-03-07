@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.todo {
+  border: dotted 1px black;
+  border-radius: 15px;
+  width: 50%;
+  padding: 20px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+
+.todo:hover {
+  background-color: rgb(5, 129, 5);
+}
+
+completed {
+  text-decoration: line-through;
+}

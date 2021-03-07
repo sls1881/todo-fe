@@ -20,7 +20,7 @@ export default withRouter(class Header extends Component {
                 {
                     this.props.location.pathname !== '/todos' && <NavLink className='nav-link' exact activeClassName='link' to='/todos'>ToDos</NavLink>
                 }
-                <button>Sign Out</button>
+                <button onClick={this.handleLogout}>Sign Out</button>
             </nav>
 
         )
