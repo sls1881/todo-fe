@@ -1,7 +1,7 @@
 import request from 'superagent'
 
 //URL for back end local host
-const URL = 'https://https://lucid-mestorf-9c909f.netlify.app'
+const URL = 'https://floating-fortress-98302.herokuapp.com'
 
 //Function for signing up the user
 export async function signUpUser(email, password) {
