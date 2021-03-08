@@ -44,7 +44,7 @@ export default class TodosListPage extends Component {
                 </form>
                 {!this.state.todos.length && <p>You don't have any todos!</p>}
                 {this.state.todos.map(todo =>
-                    <p key={`${todo.id}`} onClick={() => this.handleComplete(todo.id)} className={`todo ${todo.completed ? 'completed' : ''}`}> {todo.todo}</p>
+                    <p key={`${todo.id}`} onClick={() => this.handleComplete(todo.id)} className={`todo ${todo.completed ? 'true' : ''}`}> {todo.todo}</p>
                 )}
             </div>
         )

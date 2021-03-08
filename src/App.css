@@ -50,6 +50,6 @@
   background-color: rgb(5, 129, 5);
 }
 
-completed {
+.true {
   text-decoration: line-through;
 }
